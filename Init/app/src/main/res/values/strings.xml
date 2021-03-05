@@ -7,4 +7,6 @@
     <string name="niveau_3">Niveau 3</string>
     <string name="niveau_4">Niveau 4</string>
     <string name="avancer">Avancer</string>
+    <string name="parametre">Parametre</string>
+    <string name="contact">Contact</string>
 </resources>
