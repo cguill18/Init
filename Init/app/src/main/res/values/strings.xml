@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Init</string>
     <string name="init">Init()</string>
+    <string name="home">Home</string>
+    <string name="niveau_1">Niveau 1</string>
+    <string name="niveau_2">Niveau 2</string>
+    <string name="niveau_3">Niveau 3</string>
+    <string name="niveau_4">Niveau 4</string>
+    <string name="avancer">Avancer</string>
 </resources>
