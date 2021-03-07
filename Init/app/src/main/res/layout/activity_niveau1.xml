@@ -16,26 +16,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <FrameLayout
-            android:id="@+id/top"
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/deep_beige"
+            android:onClick="openDescription"
+            android:text="@string/avancer" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/textCode"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/avancer" />
-
-        </FrameLayout>
+            android:layout_height="wrap_content"
+            android:text="@string/avancer_nb_pas_n_perso_position"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <EditText
             android:id="@+id/editTextTextMultiLine"
+            style="@style/blankField"
             android:layout_width="match_parent"
-            android:layout_height="704dp"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:gravity="start|top"
-            android:hint="avancer nb(pas) {}"
-            android:inputType="textMultiLine" />
+            android:hint="@string/rentrez_ici_votre_code"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/ligth_green" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parenthese"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
