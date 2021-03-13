@@ -10,16 +10,17 @@
     <Button
         android:id="@+id/button2"
         style="@style/NiveauButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/material_on_background_disabled"
         android:onClick="openMenu"
-        android:text="@string/init"
-        android:textSize="60dp"
         app:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
+        app:layout_constraintVertical_bias="0.550" />
+    <!--android:text="@string/init"
+        android:textSize="60dp"-->
 </androidx.constraintlayout.widget.ConstraintLayout>
