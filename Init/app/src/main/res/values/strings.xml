@@ -15,4 +15,6 @@
     <string name="compile">Compiler</string>
     <string name="couloir">Couloir</string>
     <string name="labyrinthe">Labyrinthe</string>
+    <string name="btnplay">btnPlay</string>
+    <string name="fleche">fleche</string>
 </resources>
