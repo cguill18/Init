@@ -6,51 +6,79 @@
     android:layout_height="match_parent"
     tools:context=".Niveau1">
 
-    <LinearLayout
-        android:id="@+id/vbox"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|top"
             android:background="@color/deep_beige"
             android:onClick="openDescription"
             android:text="@string/avancer" />
 
-        <TextView
-            android:id="@+id/textView"
-            style="@style/textCode"
+        <LinearLayout
+            android:id="@+id/vbox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/avancer_nb_pas_n_perso_position"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:layout_height="751dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextTextMultiLine"
-            style="@style/blankField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="start|top"
-            android:hint="@string/rentrez_ici_votre_code"
-            android:inputType="textMultiLine"
-            android:textColorHint="@color/ligth_green" />
+            <TextView
+                android:id="@+id/textView"
+                style="@style/textCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/avancer_nb_pas_n_perso_position"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-        <TextView
-            android:id="@+id/textView2"
-            style="@style/textCode"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/parenthese"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                style="@style/blankField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/rentrez_ici_votre_code"
+                android:inputType="textMultiLine"
+                android:textColorHint="@color/ligth_green" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/parenthese"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="479dp"
+                android:layout_height="281dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="50dp"
+                android:contentDescription="@string/couloir"
+                app:srcCompat="@drawable/corridor" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="227dp"
+                android:layout_height="224dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/labyrinthe"
+                app:srcCompat="@drawable/maze_example" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/compileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:onClick="compile"
+            android:text="@string/compile" />
+    </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

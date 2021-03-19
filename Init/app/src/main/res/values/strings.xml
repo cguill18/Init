@@ -12,4 +12,7 @@
     <string name="avancer_nb_pas_n_perso_position">avancer (nb pas) { \n perso.position =</string>
     <string name="rentrez_ici_votre_code">rentrez ici votre code</string>
     <string name="parenthese">}</string>
+    <string name="compile">Compiler</string>
+    <string name="couloir">Couloir</string>
+    <string name="labyrinthe">Labyrinthe</string>
 </resources>

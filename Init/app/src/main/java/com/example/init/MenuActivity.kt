@@ -16,5 +16,11 @@ class MenuActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun openNiveau2(view: View) {
+        val intent = Intent(this, Niveau2::class.java)
+        startActivity(intent)
+    }
+
+
 
 }
