@@ -4,23 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/fondecran">
+    android:background="@drawable/fondecrant3"
+    tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button2"
+    <TextView
+        android:id="@+id/textView3"
         style="@style/NiveauButton"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/material_on_background_disabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="@string/init"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:contentDescription="@string/fleche"
         android:onClick="openMenu"
-        app:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.550" />
+        app:layout_constraintVertical_bias="0.523"
+        app:srcCompat="@drawable/fleche2" />
+
     <!--android:text="@string/init"
         android:textSize="60dp"-->
 </androidx.constraintlayout.widget.ConstraintLayout>

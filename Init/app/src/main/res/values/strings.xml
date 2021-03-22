@@ -33,4 +33,6 @@
     <string name="est_repare_true">est_repare = true ;</string>
     <string name="est_repare">est_repare ;</string>
     <string name="type_bool">type bool</string>
+    <string name="btnplay">btnPlay</string>
+    <string name="fleche">fleche</string>
 </resources>

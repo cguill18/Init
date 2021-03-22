@@ -20,6 +20,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".chapter1.Chapter1activity" />
         </activity>
+
+        <activity android:name=".BackgroundSound"></activity>
         <activity
             android:name=".chapter1.Niveau1_2"
             android:parentActivityName=".chapter1.Chapter1activity">
