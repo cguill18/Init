@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".chapter1.Chapter1activity">
 
     <LinearLayout
         android:id="@+id/vbox"
@@ -22,8 +22,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:onClick="openChapter1"
-            android:text="@string/chapitre_1_les_types"
+            android:onClick="openNiveau1"
+            android:text="@string/niveau_1"
             app:backgroundTint="#000000" />
 
         <Button
@@ -32,9 +32,40 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:onClick="openChapter2"
-            android:text="@string/chapitre_2_les_op_rateurs"
+            android:onClick="openNiveau2"
+            android:text="@string/niveau_2"
             app:backgroundTint="#000000" />
 
+        <Button
+            android:id="@+id/button9"
+            style="@style/NiveauButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openNiveau3"
+            android:text="@string/niveau_3"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/NiveauButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openNiveau4"
+            android:text="@string/niveau_4"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/NiveauButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openNiveau5"
+            android:text="@string/niveau_5"
+            app:backgroundTint="#000000" />
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

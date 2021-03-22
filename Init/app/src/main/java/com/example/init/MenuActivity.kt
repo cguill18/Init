@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.init.chapter1.Chapter1activity
+import com.example.init.chapter2.Chapter2activity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,13 +13,13 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
     }
 
-    fun openNiveau1(view: View) {
-        val intent = Intent(this, Niveau1::class.java)
+    fun openChapter1(view: View) {
+        val intent = Intent(this, Chapter1activity::class.java)
         startActivity(intent)
     }
 
-    fun openNiveau2(view: View) {
-        val intent = Intent(this, Niveau2::class.java)
+    fun openChapter2(view: View) {
+        val intent = Intent(this, Chapter2activity::class.java)
         startActivity(intent)
     }
 

@@ -9,20 +9,87 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Init">
-        <activity android:name=".Niveau1"
-                  android:parentActivityName=".MenuActivity">
+        <activity
+            android:name=".chapter1.Chapter1activity"
+            android:parentActivityName=".MenuActivity"
+            ></activity>
+        <activity
+            android:name=".chapter1.Niveau1_1"
+            android:parentActivityName=".chapter1.Chapter1activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MenuActivity" />
+                android:value=".chapter1.Chapter1activity" />
         </activity>
-        <activity android:name=".Niveau2"
-                  android:parentActivityName=".MenuActivity">
+        <activity
+            android:name=".chapter1.Niveau1_2"
+            android:parentActivityName=".chapter1.Chapter1activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MenuActivity" />
+                android:value=".chapter1.Chapter1activity" />
         </activity>
-        <activity android:name=".MenuActivity"
-                  android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".chapter1.Niveau1_3"
+            android:parentActivityName=".chapter1.Chapter1activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter1.Chapter1activity" />
+        </activity>
+        <activity
+            android:name=".chapter1.Niveau1_4"
+            android:parentActivityName=".chapter1.Chapter1activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter1.Chapter1activity" />
+        </activity>
+        <activity
+            android:name=".chapter1.Niveau1_5"
+            android:parentActivityName=".chapter1.Chapter1activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter1.Chapter1activity" />
+        </activity>
+        <activity
+            android:name=".chapter2.Chapter2activity"
+            android:parentActivityName=".MenuActivity"
+            ></activity>
+        <activity
+            android:name=".chapter2.Niveau2_1"
+            android:parentActivityName=".chapter2.Chapter2activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter2.Chapter2activity" />
+        </activity>
+        <activity
+            android:name=".chapter2.Niveau2_2"
+            android:parentActivityName=".chapter2.Chapter2activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter2.Chapter2activity" />
+        </activity>
+        <activity
+            android:name=".chapter2.Niveau2_3"
+            android:parentActivityName=".chapter2.Chapter2activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter2.Chapter2activity" />
+        </activity>
+        <activity
+            android:name=".chapter2.Niveau2_4"
+            android:parentActivityName=".chapter2.Chapter2activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter2.Chapter2activity" />
+        </activity>
+        <activity
+            android:name=".chapter2.Niveau2_5"
+            android:parentActivityName=".chapter2.Chapter2activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".chapter2.Chapter2activity" />
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

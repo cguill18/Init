@@ -9,10 +9,28 @@
     <string name="avancer">Avancer</string>
     <string name="parametre">Parametre</string>
     <string name="contact">Contact</string>
-    <string name="avancer_nb_pas_n_perso_position">avancer (nb pas) { \n perso.position =</string>
-    <string name="rentrez_ici_votre_code">rentrez ici votre code</string>
+    <string name="avancer_nb_pas_n_perso_position">avancer (nb pas) { \n    perso.position =</string>
+    <string name="rentrez_ici_votre_code">&lt;u&gt;underline&lt;/u&gt;</string>
     <string name="parenthese">}</string>
     <string name="compile">Compiler</string>
     <string name="couloir">Couloir</string>
     <string name="labyrinthe">Labyrinthe</string>
+    <string name="niveau_5">Niveau 5</string>
+    <string name="type_integer">Type Integer</string>
+    <string name="nombre">nombre ;</string>
+    <string name="points_de_vie">points_de_vie ;</string>
+    <string name="points_de_vie_5">points_de_vie = 5 ;</string>
+    <string name="type_float">Type float</string>
+    <string name="float_pi">float pi;</string>
+    <string name="nombre_a_virgules">nombre_a_virgule =</string>
+    <string name="float_nombre_a_virgule">float nombre_a_virgule ;</string>
+    <string name="chapitre_1_les_types">Chapitre 1 : Les types</string>
+    <string name="chapitre_2_les_fonctions">Chapitre 2 : Les fonctions</string>
+    <string name="chapitre_2_les_op_rateurs">Chapitre 2 : Les opérateurs</string>
+    <string name="type_char">type character</string>
+    <string name="char_lettre">char lettre ;</string>
+    <string name="lettre_a">lettre = \u0020\u0020\u0020   a   \u0020\u0020\u0020  ;</string>
+    <string name="est_repare_true">est_repare = true ;</string>
+    <string name="est_repare">est_repare ;</string>
+    <string name="type_bool">type bool</string>
 </resources>

@@ -1,21 +1,19 @@
-package com.example.init
+package com.example.init.chapter2
 
-import android.content.DialogInterface
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.PopupWindow
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_niveau1.*
+import com.example.init.R
+import kotlinx.android.synthetic.main.activity_niveau1_1.*
 
-class Niveau1 : AppCompatActivity() {
+class Niveau2_1 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_niveau1)
+        setContentView(R.layout.activity_niveau1_1)
     }
 
     fun openDescription(view: View) {
@@ -29,6 +27,8 @@ class Niveau1 : AppCompatActivity() {
     }
 
 
+    //TODO : https://developer.android.com/training/constraint-layout
+    // https://blog.soat.fr/2017/01/transformez-vos-layouts-en-constraintlayout-partie-1/
 
     fun compile(view : View){
         val regex = Regex("[0-9]+")
@@ -36,7 +36,7 @@ class Niveau1 : AppCompatActivity() {
             val mypopup = AlertDialog.Builder(this)
             mypopup.setTitle("Bien Joué ! ")
             mypopup.setMessage("Vous avez bien entré un entier.")
-            mypopup.setPositiveButton("Suivant", { dialog, which -> Toast.makeText(applicationContext, "Suivant", Toast.LENGTH_SHORT).show() })
+            mypopup.setPositiveButton("Suivant", { dialog, which ->  })
             mypopup.setNegativeButton("Réessayer", { dialog, which -> Toast.makeText(applicationContext, "Réessayer", Toast.LENGTH_SHORT).show() })
             mypopup.setNeutralButton("Menu", { dialog, which -> Toast.makeText(applicationContext, "Menu", Toast.LENGTH_SHORT).show() })
             mypopup.show()
